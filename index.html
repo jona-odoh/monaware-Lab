@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monaware Labs - Innovating Simplicity, Empowering the Future. We build digital products and startup projects including school management systems, business platforms, blockchain apps, and developer communities.">
+    <meta name="keywords" content="technology, startup, software development, blockchain, AI, web development, Nigeria">
+    <meta name="author" content="Monaware Labs">
+    <title>Monaware Labs - Innovating the Future</title> 
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm" id="navbar">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-rocket me-2" style="color: #0066FF;"></i>
+                Monaware Labs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm ms-2" id="darkModeToggle" title="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container-fluid px-0">
+            <div class="row g-0 align-items-center min-vh-100">
+                <div class="col-lg-6 d-flex align-items-center px-4 py-5">
+                    <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 class="display-4 fw-800 mb-3">
+                            Innovating <span class="gradient-text">Simplicity</span>, Empowering the Future
+                        </h1>
+                        <p class="lead text-muted mb-4">
+                            We design and build cutting-edge digital products, from SaaS platforms to blockchain solutions. 
+                            Transforming ideas into reality for startups and enterprises.
+                        </p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="projects.html" class="btn btn-primary btn-lg">
+                                <i class="fas fa-arrow-right me-2"></i>View Our Work
+                            </a>
+                            <a href="contact.html" class="btn btn-outline-primary btn-lg">
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-center">
+                    <div class="hero-image-container" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="floating-shape shape-1"></div>
+                        <div class="floating-shape shape-2"></div>
+                        <div class="floating-shape shape-3"></div>
+                        <div class="hero-image">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Summary Section -->
+    <section class="about-summary py-5" id="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://via.placeholder.com/500x400?text=About+Monaware" alt="About Monaware Labs" 
+                         class="img-fluid rounded-4" data-aos="fade-right" data-aos-duration="1000">
+                </div>
+                <div class="col-lg-6">
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <h2 class="display-6 fw-800 mb-3">Who We Are</h2>
+                        <p class="lead text-muted mb-3">
+                            Monaware Labs is a team of innovative developers, designers, and strategists dedicated to 
+                            building transformative digital solutions.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="fas fa-check text-primary me-2"></i>
+                                <strong>School Management Systems</strong> - Streamline educational institutions
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-primary me-2"></i>
+                                <strong>Business Platforms</strong> - Empower your enterprise
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-primary me-2"></i>
+                                <strong>Blockchain Apps</strong> - Secure and transparent solutions
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-primary me-2"></i>
+                                <strong>Developer Communities</strong> - Building tech ecosystems
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="stat-card">
+                        <h3 class="display-5 fw-800 gradient-text mb-2">50+</h3>
+                        <p class="text-muted">Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-card">
+                        <h3 class="display-5 fw-800 gradient-text mb-2">30+</h3>
+                        <p class="text-muted">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-card">
+                        <h3 class="display-5 fw-800 gradient-text mb-2">15+</h3>
+                        <p class="text-muted">Team Members</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-card">
+                        <h3 class="display-5 fw-800 gradient-text mb-2">5+</h3>
+                        <p class="text-muted">Years of Excellence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects py-5" id="projects-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-6 fw-800 mb-3">Featured Projects</h2>
+                <p class="lead text-muted">Showcasing our latest innovative solutions</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300?text=SchoolHub" alt="SchoolHub Project" class="img-fluid">
+                            <div class="overlay">
+                                <a href="projects.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-arrow-right me-2"></i>View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h5 class="fw-700">SchoolHub</h5>
+                            <p class="text-muted small">Comprehensive school management system with student tracking, attendance, and grading.</p>
+                            <div class="tech-stack">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-success">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300?text=BlockTrade" alt="BlockTrade Project" class="img-fluid">
+                            <div class="overlay">
+                                <a href="projects.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-arrow-right me-2"></i>View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h5 class="fw-700">BlockTrade</h5>
+                            <p class="text-muted small">Secure blockchain-based trading platform with real-time analytics and smart contracts.</p>
+                            <div class="tech-stack">
+                                <span class="badge bg-primary">Solidity</span>
+                                <span class="badge bg-secondary">Web3.js</span>
+                                <span class="badge bg-success">Ethereum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300?text=DevHub" alt="DevHub Project" class="img-fluid">
+                            <div class="overlay">
+                                <a href="projects.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-arrow-right me-2"></i>View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h5 class="fw-700">DevHub</h5>
+                            <p class="text-muted small">Developer community platform for collaboration, learning, and networking.</p>
+                            <div class="tech-stack">
+                                <span class="badge bg-primary">Vue.js</span>
+                                <span class="badge bg-secondary">Firebase</span>
+                                <span class="badge bg-success">GraphQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="projects.html" class="btn btn-primary btn-lg">
+                    View All Projects <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-6 fw-800 mb-3">What Our Clients Say</h2>
+                <p class="lead text-muted">Trusted by leading organizations</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"Monaware Labs transformed our school management. The platform is intuitive and has improved our operations significantly."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://via.placeholder.com/50?text=CE" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                            <div>
+                                <h6 class="mb-0 fw-700">Chidi Ejiofor</h6>
+                                <small class="text-muted">School Principal</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"Professional team, excellent communication, and outstanding delivery. They exceeded our expectations on every front."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://via.placeholder.com/50?text=AB" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                            <div>
+                                <h6 class="mb-0 fw-700">Amara Blessing</h6>
+                                <small class="text-muted">Business Founder</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"The blockchain solution they built is secure, scalable, and perfectly aligned with our vision. Highly recommended!"</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://via.placeholder.com/50?text=OO" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                            <div>
+                                <h6 class="mb-0 fw-700">Oluwaseun Obi</h6>
+                                <small class="text-muted">Tech CEO</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="text-center" data-aos="zoom-in">
+                <h2 class="display-5 fw-800 mb-3">Ready to Build Something Amazing?</h2>
+                <p class="lead mb-4">Let's discuss how we can transform your ideas into reality</p>
+                <a href="contact.html" class="btn btn-light btn-lg">
+                    <i class="fas fa-envelope me-2"></i>Start Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-3">
+                    <h5 class="fw-700 mb-3">
+                        <i class="fas fa-rocket me-2" style="color: #0066FF;"></i>
+                        Monaware Labs
+                    </h5>
+                    <p class="text-muted small">Innovating Simplicity, Empowering the Future.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white me-3" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-white me-3" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="text-white" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-700 mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="projects.html" class="text-muted text-decoration-none">Projects</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-700 mb-3">Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html" class="text-muted text-decoration-none">Web Development</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Mobile Apps</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Blockchain</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">IT Consultancy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-700 mb-3">Get In Touch</h6>
+                    <p class="text-muted small">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        Lagos, Nigeria
+                    </p>
+                    <p class="text-muted small">
+                        <i class="fas fa-phone me-2"></i>
+                        +234 (0) 123 456 7890
+                    </p>
+                    <p class="text-muted small">
+                        <i class="fas fa-envelope me-2"></i>
+                        hello@monaware.com
+                    </p>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-muted small mb-0">&copy; 2025 Monaware Labs. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-muted text-decoration-none small me-3">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none small">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
